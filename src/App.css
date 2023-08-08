@@ -34,9 +34,9 @@ body {
 
 .header-link {
   display: inline-block;
-  margin: 0 100px; /* Adjust the value for desired spacing */
-  color: white; /* Set text color to white */
-  text-decoration: none; /* Remove underline from links */
+  margin: 0 100px; 
+  color: white; 
+  text-decoration: none; 
 }
 .Movies{
   width: 450px;;
@@ -45,7 +45,7 @@ body {
   gap: 5px;
 }
 
-/* Style for individual movie card */
+
 .spec{
   color: #f7f7f7;
   display:flex;
