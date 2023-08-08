@@ -1,0 +1,89 @@
+
+
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.poster{
+  border-radius: 50%;
+  height: 200px;
+  width:200px;
+  object-fit: cover;
+  
+} */
+
+
+/* styles.css */
+
+
+/* Style for the container of all movie cards */
+body {
+  background-image: url("./new iamge.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}   
+
+.headers {
+  text-align: center;
+  background-color: black;
+  height: 20px;
+}
+
+.header-link {
+  display: inline-block;
+  margin: 0 100px; /* Adjust the value for desired spacing */
+  color: white; /* Set text color to white */
+  text-decoration: none; /* Remove underline from links */
+}
+.Movies{
+  width: 450px;;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  gap: 5px;
+}
+
+/* Style for individual movie card */
+.spec{
+  color: #f7f7f7;
+  display:flex;
+  justify-content: space-between;
+}
+.Movie {
+  width: 295px;
+  background-color: #0a0a0a;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for movie title */
+
+h1{
+  color: #f7f7f7;
+  text-align: center;
+
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Style for movie poster */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for movie summary */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
