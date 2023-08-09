@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { ColorBox } from "./App";
 
-export function Colorgame() {
+function Colorgame() {
   const [bg, setbgcol] = useState("red");
   const styles = {
     background: bg,
@@ -28,4 +28,14 @@ export function Colorgame() {
       ))}
     </div>
   );
+}
+
+function ColorBox({ clr }) {
+  const styles = {
+    height: "25px",
+    width: "250px",
+    background: clr,
+    marginTop: "5px",
+  };
+  return <div style={styles}></div>;
 }
